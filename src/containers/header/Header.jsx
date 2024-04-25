@@ -1,23 +1,23 @@
 import React from 'react';
-import people from '../../assets/people.png';
 import ai from '../../assets/ai.png';
 import './header.css';
 
 const Header = () => (
-  <div className="gpt3__header section__padding" id="home">
+  <div className="gpt3__header" id="home">
     <div className="gpt3__header-content">
-      <h1 className="gradient__text">Let&apos;s Build Something amazing with GPT-3 OpenAI</h1>
-      <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+      <h1 className="gradient__text">Lorem ipsum dolor sit amet</h1>
+      <p>
+        Augue eget arcu dictum varius duis at consectetur lorem donec. Malesuada
+        proin libero nunc consequat interdum varius sit amet. Duis tristique
+        sollicitudin nibh sit. Ullamcorper dignissim cras tincidunt lobortis
+        feugiat vivamus at augue eget.
+      </p>
 
-      <div className="gpt3__header-content__input">
-        <input type="email" placeholder="Your Email Address" />
-        <button type="button">Get Started</button>
+      <div className="header_action-buttons">
+        <button type="button" className="header_action-buttons_button header_btnContact">Contact</button>
+        <button type="button" className="header_action-buttons_button header_btnBusiness">IA for business</button>
       </div>
 
-      <div className="gpt3__header-content__people">
-        <img src={people} />
-        <p>1,600 people requested access a visit in last 24 hours</p>
-      </div>
     </div>
 
     <div className="gpt3__header-image">
