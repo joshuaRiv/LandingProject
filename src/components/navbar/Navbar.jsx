@@ -1,23 +1,11 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import DropdownNPM from './dropdown.jsx';
+import CustomDropdown from './dropdown.jsx';
 import logo from '../../assets/aicraftLogo.png';
 import './navbar.css';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
-
-  const [isDropdownVisible, setDropdownVisible] = useState(false);
-
-  const handleMouseEnter = () => {
-    isDropdownVisible(true);
-    setDropdownVisible(true);
-  };
-
-  const handleMouseLeave = () => {
-    isDropdownVisible(false);
-    setDropdownVisible(false);
-  };
 
   return (
     <div className="gpt3__navbar">
@@ -27,18 +15,7 @@ const Navbar = () => {
       </div>
       {/* </div> */}
       <div className="gpt3__navbar-links_container">
-        <p>
-          <a
-            href="#wgpt3"
-            className="menu"
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-          >
-            Productos
-            {/* <DropdownMenu /> */}
-            {isDropdownVisible && <DropdownNPM />}
-          </a>
-        </p>
+        <CustomDropdown />
         <p>
           <a href="#wgpt3">Productos</a>
         </p>
