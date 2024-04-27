@@ -1,6 +1,7 @@
 import React from 'react';
-import { DownOutlined, SmileOutlined } from '@ant-design/icons';
+// import { DownOutlined } from '@ant-design/icons';
 import { Dropdown, Space } from 'antd';
+// import Background from 'hero-slider/dist/components/Slide/Background';
 
 const items = [
   {
@@ -18,7 +19,6 @@ const items = [
         2nd menu item (disabled)
       </a>
     ),
-    icon: <SmileOutlined />,
     disabled: true,
   },
   {
@@ -36,18 +36,19 @@ const items = [
     label: 'a danger item',
   },
 ];
-const CustomDropdown = () => (
+const CustomDropdown = ({ title }) => (
+
   <Dropdown
     menu={{
       items,
     }}
   >
-    <button type="button" onClick={() => console.log(Hola)} className='bg-transparent'>
+    <a href="..." className="dropdownButton">
       <Space>
-        Hover me
-        <DownOutlined />
+        { title }
+        {/* <DownOutlined /> */}
       </Space>
-    </button>
+    </a>
   </Dropdown>
 );
 
