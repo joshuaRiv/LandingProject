@@ -62,32 +62,25 @@
 }
 
 .header_btnContact {
-  background: linear-gradient( 60deg, #00f, #00e8ff) padding-box,
-    linear-gradient(60deg, #00f, #00e8ff) border-box;
+  background: linear-gradient( 60deg, var(--darkBlue), var(--clearBlue)) padding-box,
+    linear-gradient(60deg, var(--darkBlue), var(--clearBlue)) border-box;
   color: #313149;
   padding: 0.2em 1em;
   border: 5px solid transparent;
   border-radius: 13px;
   display: inline-block;
-  font-size: 28px;
-  /* fallback for old browsers */
-  /* background: -webkit-linear-gradient(
-    to right,
-    #8e54e9,
-    #4776e6
-  );  */
-  /* Chrome 10-25, Safari 5.1-6 */
-  /* background: linear-gradient(
-      217deg,
-      rgba(255, 0, 0, 0.8),
-      rgba(255, 0, 0, 0) 70.71%
-    ),
-    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
-    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%); */
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size: 20px;
 }
 
 .header_btnBusiness {
+  background: linear-gradient( 60deg, var(--darkBlue), var(--clearBlue)) padding-box,
+    linear-gradient(60deg, var(--darkBlue), var(--clearBlue)) border-box;
+  color: #313149;
+  padding: 0.2em 0.6em;
+  border: 5px solid transparent;
+  border-radius: 13px;
+  display: inline-block;
+  font-size: 20px;
 }
 
 .carouselSizing{
@@ -97,13 +90,32 @@
 .dropdownButtonTitle{
   padding-top: 5px;
   padding-bottom: 5px;
+  line-height: 25px;
 }
 
-.dropdownButtonTitle:hover{
-  border-bottom: 2px solid white;
+.dropdownButtonTitle::after{
+  display:flex;
+  content: "";
+  position: relative;
+  margin-top: 2px;
+  margin-left: -4px;
+  width: 110%;
+  height: 3px;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.dropdownButtonTitle:hover::after{
+  transform:translateY(2px);
+  transition: all 200ms ease-out;
+  background-color: white;
 }
 
 @media screen and (max-width: 1050px) {
+  .carouselSizing{
+    max-width: 100%;
+  }
+
   .gpt3__header {
     flex-direction: column;
   }

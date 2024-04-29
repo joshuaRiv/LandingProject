@@ -3,14 +3,22 @@
 :root {
   --font-family: 'Manrope', sans-serif;
 
-  --gradient-text: linear-gradient(89.97deg, #39a8f7 1.84%, #fa3baa 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #39a8f7 -13.86%, #fa3baa 99.55%);
+  --gradient-text: linear-gradient(89.97deg, #16B4F2 1.84%, #B525E6 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #16B4F2 -13.86%, #B525E6 99.55%);
   
+
+
   --color-bg: #040C18;
   --color-footer : #031B34;
   --color-blog: #042c54;
   --color-text: #81AFDD;
   --color-subtext: #fa3baa;
+
+  --clearBlue: #16B4F2;
+  --darkBlue: #174CB2;
+  --purple: #4F18AA;
+  --pinkEnd: #B525E6;
+  
 }
 
 ::-webkit-scrollbar {

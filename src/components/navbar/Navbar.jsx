@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+import items from './Dropdown/dropDownItems.js';
 import CustomDropdown from './Dropdown/dropdown.jsx';
 import logo from '../../assets/aicraftLogo.png';
 import './navbar.css';
@@ -15,14 +16,16 @@ const Navbar = () => {
       </div>
       {/* </div> */}
       <div className="gpt3__navbar-links_container">
-        <CustomDropdown title="Servicios" />
-        <CustomDropdown title="Productos" />
-        <CustomDropdown title="Entrenamiento" />
-        <CustomDropdown title="Recursos" />
+        <CustomDropdown title="Servicios" items={items.services} />
+        <CustomDropdown title="Productos" items={items.products} />
+        <CustomDropdown title="Entrenamiento" items={items.training} />
+        <CustomDropdown title="Recursos" items={items.resources} />
         <p>
-          <a href="#blog" className="dropdownButtonTitle">Contacto</a>
+          <a href="#blog" className="dropdownButtonTitle">
+            Contacto
+          </a>
         </p>
-        <CustomDropdown title="Nosotros" />
+        <CustomDropdown title="Nosotros" items={items.company} />
       </div>
 
       <div className="gpt3__navbar-sign">
