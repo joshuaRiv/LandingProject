@@ -12,7 +12,7 @@ const Header = () => (
         </div>
 
         <div className="header_action-buttons">
-          <button type="button" className="header_action-buttons_button header_btnContact">Contact</button>
+          <button type="button" className="header_action-buttons_button header_btnContact">Contacto</button>
           <button type="button" className="header_action-buttons_button header_btnBusiness">IA para negocios</button>
         </div>
 

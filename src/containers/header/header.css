@@ -62,57 +62,54 @@
 }
 
 .header_btnContact {
-  background: linear-gradient( 60deg, var(--darkBlue), var(--clearBlue)) padding-box,
-    linear-gradient(60deg, var(--darkBlue), var(--clearBlue)) border-box;
-  color: #313149;
-  padding: 0.2em 1em;
-  border: 5px solid transparent;
+  color: #040C18;
+  background: rgba(22, 180, 242, 0.9);
+  padding: 0.6em 1.2em;
+  /* border: 1px solid transparent; */
   border-radius: 13px;
   display: inline-block;
-  font-size: 20px;
+  font-size: 18px;
+  margin-right: 2rem;
+  transition: all 0.3s ease;
+}
+.header_btnContact:hover {
+  background: linear-gradient(60deg, var(--darkBlue), var(--clearBlue))
+      padding-box,
+    linear-gradient(60deg, var(--darkBlue), var(--clearBlue)) border-box !important;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+  -webkit-box-shadow: 0px 6px 20px 0px #174CB2;
+  -moz-box-shadow: 0px 6px 20px 0px #174CB2;
+  box-shadow: 0px 6px 20px 0px #174CB2;
+  transform: translateY(-4px);
 }
 
 .header_btnBusiness {
-  background: linear-gradient( 60deg, var(--darkBlue), var(--clearBlue)) padding-box,
-    linear-gradient(60deg, var(--darkBlue), var(--clearBlue)) border-box;
-  color: #313149;
-  padding: 0.2em 0.6em;
-  border: 5px solid transparent;
-  border-radius: 13px;
+  background: transparent;
+  color: #e9e9e9;
+  padding: 0.4em 1.2em;
   display: inline-block;
-  font-size: 20px;
+  font-size: 18px;
+  border-radius: 13px;
 }
 
-.carouselSizing{
-  max-width: 40vw;
+.header_btnBusiness:hover {
+  transition: all 0.3s ease;
+  -webkit-box-shadow: 0px 6px 20px 0px #174CB2;
+  -moz-box-shadow: 0px 6px 20px 0px #174CB2;
+  box-shadow: 0px 6px 20px 0px #174CB2;
+  transform: translateY(-4px);
+  border: 2px solid linear-gradient(60deg, var(--darkBlue), var(--clearBlue))
+  padding-box,
+linear-gradient(60deg, var(--darkBlue), var(--clearBlue)) border-box !important;
 }
 
-.dropdownButtonTitle{
-  padding-top: 5px;
-  padding-bottom: 5px;
-  line-height: 25px;
-}
-
-.dropdownButtonTitle::after{
-  display:flex;
-  content: "";
-  position: relative;
-  margin-top: 2px;
-  margin-left: -4px;
-  width: 110%;
-  height: 3px;
-  background-color: transparent;
-  border-radius: 10px;
-}
-
-.dropdownButtonTitle:hover::after{
-  transform:translateY(2px);
-  transition: all 200ms ease-out;
-  background-color: white;
+.carouselSizing {
+  max-width: 30vw;
 }
 
 @media screen and (max-width: 1050px) {
-  .carouselSizing{
+  .carouselSizing {
     max-width: 100%;
   }
 

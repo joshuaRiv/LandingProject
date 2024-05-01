@@ -4,7 +4,7 @@
   align-items: center;
 
   padding: 1.7rem 6rem;
-  position:static;
+  position: static;
 }
 
 .gpt3__navbar-links {
@@ -46,12 +46,12 @@
 .gpt3__navbar-menu_container button {
   padding: 0.5rem 1rem;
   color: #fff;
-  background: transparent;
+  background: var(--darkBlue);
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 18px;
   line-height: 25px;
-  background: linear-gradient( 60deg, var(--purple), var(--pinkEnd)) padding-box,
+  background: linear-gradient(60deg, var(--purple), var(--pinkEnd)) padding-box,
     linear-gradient(60deg, var(--darkBlue), var(--clearBlue)) border-box;
   /* outline: none; */
   cursor: pointer;
@@ -137,6 +137,30 @@ li:hover {
   transition: all linear 0.3s;
   position: relative;
   top: 5px;
+}
+
+.dropdownButtonTitle {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  line-height: 25px;
+}
+
+.dropdownButtonTitle::after {
+  display: flex;
+  content: "";
+  position: relative;
+  margin-top: 2px;
+  margin-left: -4px;
+  width: 110%;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.dropdownButtonTitle:hover::after {
+  transform: translateY(2px);
+  transition: all 200ms ease-out;
+  background-color: white;
+  height: 3px;
 }
 
 @media screen and (max-width: 1050px) {

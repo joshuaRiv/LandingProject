@@ -28,12 +28,12 @@ const CarouselComponent = () => (
     }}
   >
     <div className="w-screen h-80">
-      <Carousel dotPosition="top" effect="fade" autoplay autoplaySpeed={1000}>
+      <Carousel dotPosition="top" effect="fade" autoplay autoplaySpeed={4500}>
         {
           carouselItems.map((item) => (
             <div key={item.key}>
               <div style={contentStyle}>
-                <span style={{ fontSize: '1rem' }} className="gradient__text">{item.title}</span>
+                <span style={{ fontSize: '1.7rem', fontWeight: 'bold' }} className="gradient__text">{item.title}</span>
                 <p>
                   {item.description}
                 </p>
