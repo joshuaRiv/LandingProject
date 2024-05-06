@@ -22,10 +22,12 @@ const featuresData = [
 ];
 
 const Features = () => (
-  <div className="gpt3__features section__padding" id="features">
-    <div className="gpt3__features-heading">
-      <h1 className="gradient__text">The Future is Now and You Just Need to Realize It. Step into Future Today. & Make it Happen.</h1>
-      <p>Request Early Access to Get Started</p>
+  <div className="center" id="features">
+    <h3 className="miniTitle">Nuestra Oferta</h3>
+
+    <div>
+      <h2 className="title">RevolucionIAndo la vida y los negocios </h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
     <div className="gpt3__features-container">
       {featuresData.map((item, index) => (

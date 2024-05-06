@@ -7,11 +7,17 @@
 
 body {
   background: var(--color-bg);
+  font-family: var(--font-family);
 }
 
 a {
   color: unset;
   text-decoration: none;
+}
+
+.center{
+  text-align: center;
+  margin: auto;
 }
 
 .gradient__bg {
