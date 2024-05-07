@@ -1,7 +1,7 @@
 .gpt3__header {
   display: flex;
   flex-direction: row;
-  padding-top: 7.5rem;
+  padding-top: 6.5rem;
   padding-left: 6rem;
   padding-right: 6rem;
   padding-bottom: 0.5rem;
@@ -80,9 +80,9 @@
     linear-gradient(60deg, var(--darkBlue), var(--purple)) border-box !important;
   border: none;
   transition: all 0.3s ease;
-  -webkit-box-shadow: 0px 6px 20px 0px #174cb2;
-  -moz-box-shadow: 0px 6px 20px 0px #174cb2;
-  box-shadow: 0px 6px 20px 0px #174cb2;
+  -webkit-box-shadow: 0px 6px 30px 0px #174cb2;
+  -moz-box-shadow: 0px 6px 30px 0px #174cb2;
+  box-shadow: 0px 6px 30px 0px #174cb2;
   transform: translateY(-4px);
 }
 
@@ -97,9 +97,9 @@
 
 .header_btnBusiness:hover {
   transition: all 0.3s ease;
-  -webkit-box-shadow: 0px 6px 20px 0px #174cb2;
-  -moz-box-shadow: 0px 6px 20px 0px #174cb2;
-  box-shadow: 0px 6px 20px 0px #174cb2;
+  -webkit-box-shadow: 0px 6px 30px 0px #174cb2;
+  -moz-box-shadow: 0px 6px 30px 0px #174cb2;
+  box-shadow: 0px 6px 30px 0px #174cb2;
   transform: translateY(-4px);
   border: 2px solid linear-gradient(60deg, var(--darkBlue), var(--purple))
       padding-box,

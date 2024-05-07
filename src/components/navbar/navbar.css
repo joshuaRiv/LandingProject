@@ -3,10 +3,12 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 1.7rem 6rem;
+  padding: 1.4rem 6rem;
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: rgba(4, 12, 24, 0.8);
+  z-index: 1;
 }
 
 .gpt3__navbar-links {
@@ -46,7 +48,7 @@
 
 .gpt3__navbar-sign button,
 .gpt3__navbar-menu_container button {
-  padding: 0.5rem 1rem;
+  padding: 0.4rem 1rem;
   color: #fff;
   background: var(--darkBlue);
   font-family: var(--font-family);
@@ -174,6 +176,9 @@ li:hover {
   }
   .gpt3__navbar-menu {
     display: flex;
+  }
+  .gpt3__navbar{
+    background: none;
   }
 }
 

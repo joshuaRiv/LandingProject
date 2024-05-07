@@ -8,9 +8,10 @@ ul.slick-dots.slick-dots-top{
 
 .ant-carousel.css-dev-only-do-not-override-fepupw>.slick-slider.slick-initialized>.slick-dots {
   justify-content: flex-start;
+  z-index: 0;
 }
 .ant-carousel.css-dev-only-do-not-override-fepupw>.slick-slider.slick-initialized>.slick-list>.slick-track > * {
-  z-index: 1 !important;
+  z-index: 0 !important;
 }
 /* #home > div.gpt3__header-content > div.carouselSizing > div > div > div > ul > li{
   border-radius: 10px !important;

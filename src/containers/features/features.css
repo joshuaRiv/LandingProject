@@ -1,5 +1,6 @@
-#features{
+#features {
   color: white !important;
+  margin: 4rem 3rem;
 }
 
 .gpt3__features {
@@ -38,10 +39,10 @@
 }
 
 .description {
-    font-size: 0.975rem;
-    line-height: 1.5;
-    margin: auto;
-    max-width: 50%;
+  font-size: 0.975rem;
+  line-height: 1.5;
+  margin: auto;
+  max-width: 50%;
 }
 
 .gpt3__features-heading h1 {
@@ -66,7 +67,44 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  flex-direction: row;
+  margin-top: 5rem;
+}
+.featureButtons {
+  display: flex;
+  margin: 5rem auto;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 30%;
+  gap: 50px;
+}
+.featureButtons>*{
+  padding: 3px;
+  border-radius: 12px;
+  transition: all 0.25s ease;
+}
+
+.featuresButtonContainerAi {
+  background: linear-gradient(to right, var(--darkBlue),  var(--pinkEnd));
+}
+.featuresButtonContainerPr {
+  background: linear-gradient(to right, var(--pinkEnd),  var(--darkBlue));
+}
+
+.featureButtons>*:hover{
+  transform: translateY(-6px);
+  transition: all 0.25s ease;
+  -webkit-box-shadow: 0px 6px 30px 0px var(--purple);
+  -moz-box-shadow: 0px 6px 30px 0px var(--purple);
+  box-shadow: 0px 6px 30px 0px var(--purple);
+
+}
+
+.featureBtns {
+  background-color: #040c18;
+  font-size: 20px;
+  border-radius: 12px;
 }
 
 @media screen and (max-width: 990px) {
@@ -77,11 +115,18 @@
   .gpt3__features-heading {
     margin: 0 0 2rem 0;
   }
+
+  .description {
+    max-width: 80%;
+  }
 }
 
 @media screen and (max-width: 550px) {
   .gpt3__features-heading h1 {
     font-size: 28px;
     line-height: 38px;
+  }
+  .gpt3__features-container{
+    flex-wrap: wrap;
   }
 }
