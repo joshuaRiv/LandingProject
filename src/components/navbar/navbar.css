@@ -4,7 +4,9 @@
   align-items: center;
 
   padding: 1.7rem 6rem;
-  position: static;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .gpt3__navbar-links {

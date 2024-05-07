@@ -1,3 +1,7 @@
+#features{
+  color: white !important;
+}
+
 .gpt3__features {
   width: 100%;
   display: flex;
@@ -22,7 +26,7 @@
   text-transform: uppercase;
   line-height: 1.4;
   letter-spacing: 0.1em;
-  margin: 0 0 1.6rem;
+  margin: 0 auto 1.6rem;
 }
 
 .title {
@@ -36,7 +40,8 @@
 .description {
     font-size: 0.975rem;
     line-height: 1.5;
-    margin: 0;
+    margin: auto;
+    max-width: 50%;
 }
 
 .gpt3__features-heading h1 {

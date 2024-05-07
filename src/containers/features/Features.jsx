@@ -27,7 +27,9 @@ const Features = () => (
 
     <div>
       <h2 className="title">RevolucionIAndo la vida y los negocios </h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p className="description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+      </p>
     </div>
     <div className="gpt3__features-container">
       {featuresData.map((item, index) => (
