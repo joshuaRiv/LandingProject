@@ -7,7 +7,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(4, 12, 24, 0.8);
+  background-color: rgba(4, 12, 24, 0.9);
   z-index: 1;
 }
 
@@ -104,6 +104,11 @@
   display: none;
 }
 
+.gpt3__navbar-menu_container-links>p>a:hover {
+  /* transition: all 0.25s ease; */
+  border-bottom: 2px solid white;
+}
+
 .dropdownItemClass:hover {
   background-color: #cecece;
   color: black;
@@ -177,14 +182,17 @@ li:hover {
   .gpt3__navbar-menu {
     display: flex;
   }
-  .gpt3__navbar{
-    background: none;
+  .gpt3__navbar-menu_container-links-sign {
+    display: block;
+  }
+  .gpt3__navbar-menu_container-links{
+    width: 20vw;
   }
 }
 
 @media screen and (max-width: 700px) {
   .gpt3__navbar {
-    padding: 2rem 4rem;
+    padding: 2rem 6rem;
   }
 }
 
@@ -195,9 +203,5 @@ li:hover {
 
   .gpt3__navbar-menu_container {
     top: 20px;
-  }
-
-  .gpt3__navbar-menu_container-links-sign {
-    display: block;
   }
 }

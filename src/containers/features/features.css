@@ -28,6 +28,7 @@
   line-height: 1.4;
   letter-spacing: 0.1em;
   margin: 0 auto 1.6rem;
+  color: var(--clearBlue);
 }
 
 .title {
@@ -119,6 +120,13 @@
   .description {
     max-width: 80%;
   }
+  .gpt3__features-container{
+    column-count: 2 !important;
+    display: block;
+  }
+  .gpt3__features-container> *{
+    display: inline-block
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -127,6 +135,8 @@
     line-height: 38px;
   }
   .gpt3__features-container{
+    display: flex;
     flex-wrap: wrap;
+    column-count: 0;
   }
 }

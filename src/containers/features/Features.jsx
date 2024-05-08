@@ -5,25 +5,21 @@ import './features.css';
 const featuresData = [
   {
     title: 'Consultoría',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
   },
   {
     title: 'Auditoría',
-    text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.',
   },
   {
     title: 'Política e IA responsable',
-    text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.',
   },
   {
     title: 'Educación y entrenamiento',
-    text: 'Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush..',
   },
 ];
 
 const Features = () => (
   <div className="center" id="features">
-    <h3 className="miniTitle">Nuestra Oferta</h3>
+    <h3 className="miniTitle">NUESTRA OFERTA</h3>
 
     <div>
       <h2 className="title">RevolucionIAndo la vida y los negocios </h2>
