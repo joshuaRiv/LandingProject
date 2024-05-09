@@ -1,5 +1,7 @@
 import React from 'react';
 import './possibility.css';
+import PerformanceCards from './Cards/PerformanceCards.jsx';
+import performanceCardData from './Cards/PerformanceCards.js';
 
 const Possibility = () => (
   <div className="gpt3__possibility section__padding" id="possibility">
@@ -7,6 +9,16 @@ const Possibility = () => (
       <h3 className="miniTitle">RENDIMIENTO</h3>
       <div>
         <h2 className="title">Aicraft Supera a la Competencia</h2>
+      </div>
+      <div className="performanceCardWrapper">
+        {performanceCardData.map((item, key) => (
+          <PerformanceCards
+            key={key}
+            mini={item.mini}
+            title={item.title}
+            propImg={item.image}
+          />
+        ))}
       </div>
     </div>
   </div>
