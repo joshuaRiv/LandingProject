@@ -76,9 +76,8 @@
   transition: all 0.3s ease;
 }
 .header_btnContact:hover {
-  background: linear-gradient(60deg, white, white) padding-box,
+  border: linear-gradient(60deg, white, white) padding-box,
     linear-gradient(60deg, var(--darkBlue), var(--purple)) border-box !important;
-  border: none;
   transition: all 0.3s ease;
   -webkit-box-shadow: 0px 6px 30px 0px #174cb2;
   -moz-box-shadow: 0px 6px 30px 0px #174cb2;
@@ -93,6 +92,7 @@
   display: inline-block;
   font-size: 18px;
   border-radius: 13px;
+  transition: all 0.3s ease;
 }
 
 .header_btnBusiness:hover {

@@ -7,6 +7,15 @@
   padding: 30px 20px;
   text-align: left;
   border-radius: 13px;
+  max-width: 80%;
+  margin: auto;
+}
+
+.cardPerformance img{
+  max-width: 100%;
+  min-height: 350px;
+  margin: auto;
+  padding-top: 0.8rem;
 }
 
 .miniTitlePerformance {
@@ -25,4 +34,17 @@
   color: white;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 768px) {
+  .cardPerformance{
+    max-width: 100%;
+  }
+
+  .cardPerformance img{
+    max-width: 100%;
+    min-height: 200px;
+    margin: auto;
+    padding-top: 0.8rem;
+  }
 }
