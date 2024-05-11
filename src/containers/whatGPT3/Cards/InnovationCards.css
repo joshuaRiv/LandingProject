@@ -1,0 +1,64 @@
+.innovationCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.cardNumber {
+  font-size: 3.8rem;
+  margin-bottom: 1rem;
+}
+
+.cardTitle {
+  display: block;
+  font-size: 1.8rem;
+  line-height: 40px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  min-height: 120px;
+}
+
+.descriptionBlock #barraColor{
+  padding-top: 3px;
+  background: var(--gradient-bar);
+  border-radius: 50px;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 1400px){
+  .cardTitle {
+    min-height: 120px !important;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .cardTitle {
+    min-height: 200px;
+  }
+  
+}
+
+@media screen and (max-width: 1200px){
+  .cardTitle {
+    min-height: 200px;
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 1050px){
+  .cardTitle {
+    min-height: 80px;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .cardNumber {
+    font-size: 3rem;
+  }
+
+  .cardTitle {
+    font-size: 1.5rem;
+    min-height: 80px;
+  }
+  
+}
