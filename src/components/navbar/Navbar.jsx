@@ -16,9 +16,10 @@ const Navbar = () => {
       </div>
       {/* </div> */}
       <div className="gpt3__navbar-links_container">
-        <CustomDropdown title="Servicios" items={items.services} />
+        <CustomDropdown title="Serviciosaa" items={items.services} />
         <CustomDropdown title="Productos" items={items.products} />
         <CustomDropdown title="Entrenamiento" items={items.training} />
+        <CustomDropdown title="Industrias" items={items.industries} />
         <CustomDropdown title="Recursos" items={items.resources} />
         <p>
           <a href="#blog" className="dropdownButtonTitle">

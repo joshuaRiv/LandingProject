@@ -172,6 +172,14 @@ li:hover {
   height: 3px;
 }
 
+.ant-dropdown-menu-submenu.ant-dropdown-menu-submenu-vertical{
+  padding: 0 !important;
+  border-radius: 5px !important;
+}
+.ant-dropdown-menu-submenu.ant-dropdown-menu-submenu-vertical:hover{
+  background: #eeeeee;
+}
+
 @media screen and (max-width: 1050px) {
   .gpt3__navbar-links_container {
     display: none;

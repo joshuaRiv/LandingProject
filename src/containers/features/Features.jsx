@@ -22,9 +22,9 @@ const Features = () => (
     <h3 className="miniTitle">NUESTRA OFERTA</h3>
 
     <div>
-      <h2 className="title">RevolucionIAndo la vida y los negocios </h2>
+      <h2 className="title">PotencIAndo la vida y los negocios </h2>
       <p className="description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+        Transforma cada aspecto de tu vida y negocio con nuestras soluciones avanzadas de IA.Transformación inteligente, resultados reales.
       </p>
     </div>
     <div className="gpt3__features-container">
@@ -34,7 +34,7 @@ const Features = () => (
     </div>
     <div className="featureButtons">
       <div className="featuresButtonContainerAi">
-        <button type="button" className="featureBtns">Porqué Aicraft</button>
+        <button type="button" className="featureBtns">Por qué Aicraft</button>
       </div>
       <div className="featuresButtonContainerPr">
         <button type="button" className="featureBtns">Posibles proyectos</button>

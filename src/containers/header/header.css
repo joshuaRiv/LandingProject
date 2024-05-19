@@ -46,8 +46,8 @@
 .gpt3__header-image img {
   width: auto;
   height: auto;
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 90%;
+  max-height: 90%;
 }
 
 .header_action-buttons {
@@ -93,6 +93,7 @@
   font-size: 18px;
   border-radius: 13px;
   transition: all 0.3s ease;
+  border: 2px solid white;
 }
 
 .header_btnBusiness:hover {
@@ -101,13 +102,11 @@
   -moz-box-shadow: 0px 6px 30px 0px #174cb2;
   box-shadow: 0px 6px 30px 0px #174cb2;
   transform: translateY(-4px);
-  border: 2px solid linear-gradient(60deg, var(--darkBlue), var(--purple))
-      padding-box,
-    linear-gradient(60deg, var(--darkBlue), var(--purple)) border-box !important;
+  border: 2px solid transparent;
 }
 
 .carouselSizing {
-  max-width: 30vw;
+  max-width: 40vw;
 }
 
 @media screen and (max-width: 1050px) {

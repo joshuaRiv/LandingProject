@@ -1,23 +1,28 @@
 const carouselItems = [
   {
     key: 1,
-    title: 'Lorem ipsum dolor sit amet',
-    description: 'Amet volutpat consequat mauris nunc congue nisi vitae suscipit. Ornare arcu odio ut sem nulla pharetra. Sed lectus vestibulum mattis ullamcorper velit. Consequat mauris nunc congue nisi vitae suscipit. Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Tortor condimentum lacinia quis vel.',
+    title: 'Aicraft: Tu aliado para dar el salto al futuro con la Inteligencia Artifical',
+    description: 'En Aicraft estamos comprometidos a impulsar tu éxito en la era de la inteligencia artificial. Contamos con el conocimiento, las herramientas y recursos necesarios para innovar, crecer y liderar en un mundo impulsado por la IA, analítica, datos, y tecnologia. Descubre cómo podemos ser tu aliado estratégico en este emocionante viaje hacia el futuro.',
   },
   {
     key: 2,
-    title: 'Massa tincidunt dui ut ornare lectus sit amet est.',
-    description: 'Tincidunt vitae semper quis lectus nulla at volutpat diam. Nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Nec ullamcorper sit amet risus nullam eget felis eget. Maecenas accumsan lacus vel facilisis volutpat. Dui vivamus arcu felis bibendum ut tristique et egestas.',
+    title: '¿Quieres aplicar la Inteligencia Artifical en tu industria o negocio?',
+    description: 'Te ayudamos a convertir la visión de la inteligencia artificial y tecnología en realidad. Ya sea que estés buscando mejorar la eficiencia operativa, optimizar la toma de decisiones o crear experiencias personalizadas para tus clientes, estamos aquí para ayudarte a explorar, implementar y maximizar el potencial de la IA en tu industria o negocio.',
   },
   {
     key: 3,
-    title: 'Commodo viverra maecenas accumsan lacus vel facilisis.',
-    description: 'Quis hendrerit dolor magna eget est lorem ipsum dolor. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Mauris nunc congue nisi vitae. Nisi scelerisque eu ultrices vitae auctor eu augue. Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant.',
+    title: 'IA para México y Latinoamerica:',
+    description: 'En Aicraft estamos comprometidos a impulsar el desarrollo e inovación de inteligencia artificial en nuestra región. Desde realizar proyectos y modelos especializados en nuestra cultura, gente, y necesidades, hasta buscar el progreso cientifico y tecnologico de nuestra región. Unete y descubre nuestra visión y objetivos.',
   },
   {
     key: 4,
-    title: 'Eget egestas purus viverra accumsan in nisl nisi scelerisque.',
-    description: ' Nascetur ridiculus mus mauris vitae ultricies leo integer. Nam at lectus urna duis convallis convallis tellus. Praesent elementum facilisis leo vel. Eget gravida cum sociis natoque penatibus et magnis. Eu consequat ac felis donec et odio. Porta lorem mollis aliquam ut porttitor. Sed nisi lacus sed viverra tellus in hac habitasse. Dictum fusce ut placerat orci.',
+    title: '¿Necesitas a un experto en Inteligencia Artifical?',
+    description: 'Confía en nuestros expertos en inteligencia artificial para impulsar tu proyecto hacia el éxito. Con una amplia experiencia y conocimientos especializados, nuestro equipo está preparado para abordar tus desafíos más complejos en el campo de la IA. Desde consultoría estratégica, desarrollo e implementación, hasta evaluación de modelos y normativas, estamos aquí para ser tu socio de confianza en el viaje hacia la excelencia en IA.',
+  },
+  {
+    key: 5,
+    title: 'IA Ética y Responsable',
+    description: 'Porque todo empieza y termina con las personas, buscamos a promover una inteligencia artificial ética y responsable. Descubre cómo estamos liderando el camino hacia una IA que beneficie a todos, abordando temas cruciales como la equidad, la transparencia y el respeto a la privacidad. Así como nuestros servicios para creación, revisión, y evaluación de normativas y recomendaciones para una IA Ética y Responsable.',
   },
 ];
 

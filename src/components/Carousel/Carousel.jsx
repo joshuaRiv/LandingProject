@@ -28,7 +28,7 @@ const CarouselComponent = () => (
     }}
   >
     <div className="w-screen h-80">
-      <Carousel dotPosition="top" effect="fade" autoplay autoplaySpeed={4500}>
+      <Carousel arrows infinite dotPosition="top" effect="fade" autoplay autoplaySpeed={4500}>
         {
           carouselItems.map((item) => (
             <div key={item.key}>
