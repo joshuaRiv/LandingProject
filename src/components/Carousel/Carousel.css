@@ -1,9 +1,13 @@
 ul.slick-dots.slick-dots-top{
   margin-bottom: 1rem;
+  z-index: 0;
 }
 
 .ant-carousel.css-dev-only-do-not-override-fepupw>.slick-slider.slick-initialized>.slick-dots>li {
   border-radius: 10px !important;
+}
+:where(.css-dev-only-do-not-override-1ls26ha).ant-carousel .slick-dots li{
+  background: transparent;
 }
 
 .ant-carousel.css-dev-only-do-not-override-fepupw>.slick-slider.slick-initialized>.slick-dots {
@@ -12,7 +16,19 @@ ul.slick-dots.slick-dots-top{
 }
 .ant-carousel.css-dev-only-do-not-override-fepupw>.slick-slider.slick-initialized>.slick-list>.slick-track > * {
   z-index: 1 !important;
+  width: 90%;
 }
-/* #home > div.gpt3__header-content > div.carouselSizing > div > div > div > ul > li{
-  border-radius: 10px !important;
-} */
+:where(.css-dev-only-do-not-override-1ls26ha).ant-carousel .slick-list{
+  max-width: 90%;
+}
+
+:where(.css-dev-only-do-not-override-1ls26ha).ant-carousel .slick-slider{
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 700px) {
+  :where(.css-dev-only-do-not-override-1ls26ha).ant-carousel .slick-list{
+    max-width: 87%;
+  }
+}

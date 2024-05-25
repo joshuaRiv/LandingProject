@@ -9,12 +9,11 @@ const CustomDropdown = ({ title, items }) => (
       items,
     }}
   >
-    <a href="..." className="dropdownButton">
+    <button type="button" className="dropdownButton">
       <Space>
         {title}
-        {/* <DownOutlined /> */}
       </Space>
-    </a>
+    </button>
   </Dropdown>
 );
 
