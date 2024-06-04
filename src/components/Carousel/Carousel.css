@@ -29,6 +29,6 @@ ul.slick-dots.slick-dots-top{
 
 @media screen and (max-width: 700px) {
   :where(.css-dev-only-do-not-override-1ls26ha).ant-carousel .slick-list{
-    max-width: 87%;
+    max-width: 80%;
   }
 }

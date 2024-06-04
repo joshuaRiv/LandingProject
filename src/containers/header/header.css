@@ -110,6 +110,12 @@
   max-width: 40vw;
 }
 
+:where(.css-dev-only-do-not-override-1ls26ha).ant-carousel .slick-prev, :where(.css-dev-only-do-not-override-1ls26ha).ant-carousel .slick-next{
+  width: 30px !important;
+  height: 30px !important;
+  z-index: 0;
+}
+
 @media screen and (max-width: 1050px) {
   .carouselSizing {
     max-width: 100%;
@@ -138,7 +144,7 @@
   }
 
   .carouselSizing {
-    max-width: 80vw;
+    max-width: 85vw;
   }
 
   .gpt3__header-content h1 {
