@@ -1,31 +1,24 @@
 {
   "files": {
-    "main.css": "/aicraftProject/static/css/main.0470487c.chunk.css",
-    "main.js": "/aicraftProject/static/js/main.2d8cf63d.chunk.js",
-    "main.js.map": "/aicraftProject/static/js/main.2d8cf63d.chunk.js.map",
-    "runtime-main.js": "/aicraftProject/static/js/runtime-main.aa46d3c6.js",
-    "runtime-main.js.map": "/aicraftProject/static/js/runtime-main.aa46d3c6.js.map",
-    "static/js/2.1eafdd90.chunk.js": "/aicraftProject/static/js/2.1eafdd90.chunk.js",
-    "static/js/2.1eafdd90.chunk.js.map": "/aicraftProject/static/js/2.1eafdd90.chunk.js.map",
+    "main.css": "/aicraftProject/static/css/main.ff8efcf3.css",
+    "main.js": "/aicraftProject/static/js/main.a7b50a6c.js",
+    "static/media/ai.png": "/aicraftProject/static/media/ai.aa60586ba1ba53762d94.png",
+    "static/media/blog01.png": "/aicraftProject/static/media/blog01.cefc0932eae0d33a0342.png",
+    "static/media/blog03.png": "/aicraftProject/static/media/blog03.d922323861096f25274f.png",
+    "static/media/blog04.png": "/aicraftProject/static/media/blog04.742c1357e7b6c11078e6.png",
+    "static/media/blog05.png": "/aicraftProject/static/media/blog05.bfaa1c1e3851158e0e1f.png",
+    "static/media/blog02.png": "/aicraftProject/static/media/blog02.ab0eb367561796e91532.png",
+    "static/media/aicraftLogo.png": "/aicraftProject/static/media/aicraftLogo.8a06b65f30d89f73c2af.png",
+    "static/media/instagram.svg": "/aicraftProject/static/media/instagram.11b004814db4a4900dc05c2756a8c80c.svg",
     "index.html": "/aicraftProject/index.html",
-    "static/css/main.0470487c.chunk.css.map": "/aicraftProject/static/css/main.0470487c.chunk.css.map",
-    "static/js/2.1eafdd90.chunk.js.LICENSE.txt": "/aicraftProject/static/js/2.1eafdd90.chunk.js.LICENSE.txt",
-    "static/media/ai.aa60586b.png": "/aicraftProject/static/media/ai.aa60586b.png",
-    "static/media/aicraftLogo.8a06b65f.png": "/aicraftProject/static/media/aicraftLogo.8a06b65f.png",
-    "static/media/blog01.cefc0932.png": "/aicraftProject/static/media/blog01.cefc0932.png",
-    "static/media/blog02.ab0eb367.png": "/aicraftProject/static/media/blog02.ab0eb367.png",
-    "static/media/blog03.d9223238.png": "/aicraftProject/static/media/blog03.d9223238.png",
-    "static/media/blog04.742c1357.png": "/aicraftProject/static/media/blog04.742c1357.png",
-    "static/media/blog05.bfaa1c1e.png": "/aicraftProject/static/media/blog05.bfaa1c1e.png",
-    "static/media/instagram.11b00481.svg": "/aicraftProject/static/media/instagram.11b00481.svg",
-    "static/media/linkedin.0f75b0ce.svg": "/aicraftProject/static/media/linkedin.0f75b0ce.svg",
-    "static/media/x.90266624.svg": "/aicraftProject/static/media/x.90266624.svg",
-    "static/media/youtube.3caf6cdb.svg": "/aicraftProject/static/media/youtube.3caf6cdb.svg"
+    "static/media/linkedin.svg": "/aicraftProject/static/media/linkedin.0f75b0ce4198284bd2c8750807543221.svg",
+    "static/media/youtube.svg": "/aicraftProject/static/media/youtube.3caf6cdbf2603fc9145be6d6daa38318.svg",
+    "static/media/x.svg": "/aicraftProject/static/media/x.90266624b0ade0ac6ffe2d0819fe0b6e.svg",
+    "main.ff8efcf3.css.map": "/aicraftProject/static/css/main.ff8efcf3.css.map",
+    "main.a7b50a6c.js.map": "/aicraftProject/static/js/main.a7b50a6c.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.aa46d3c6.js",
-    "static/js/2.1eafdd90.chunk.js",
-    "static/css/main.0470487c.chunk.css",
-    "static/js/main.2d8cf63d.chunk.js"
+    "static/css/main.ff8efcf3.css",
+    "static/js/main.a7b50a6c.js"
   ]
 }
