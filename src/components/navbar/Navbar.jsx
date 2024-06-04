@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import { Menu } from 'antd';
 import items from './Dropdown/dropDownItems.js';
-// import CustomDropdown from './Dropdown/dropdown.jsx';
+import CustomDropdown from './Dropdown/dropdown.jsx';
 import logo from '../../assets/aicraftLogo.png';
 import './navbar.css';
 
@@ -54,18 +54,19 @@ const Navbar = () => {
         <img src={logo} />
       </div>
       {/* </div> */}
+      {console.log(items[0].children)}
       <div className="gpt3__navbar-links_container">
-        {/* <CustomDropdown title="Servicios" items={items[0]} />
-        <CustomDropdown title="Productos" items={items[1]} />
-        <CustomDropdown title="Entrenamiento" items={items[2]} />
-        <CustomDropdown title="Industrias" items={items[3]} />
-        <CustomDropdown title="Recursos" items={items[4]} />
+        <CustomDropdown title="Servicios" items={items[0].children} />
+        <CustomDropdown title="Productos" items={items[1].children} />
+        <CustomDropdown title="Entrenamiento" items={items[2].children} />
+        <CustomDropdown title="Industrias" items={items[3].children} />
+        <CustomDropdown title="Recursos" items={items[4].children} />
         <p>
           <a href="#blog" className="dropdownButtonTitle">
             Contacto
           </a>
         </p>
-        <CustomDropdown title="Nosotros" items={items[0]} /> */}
+        <CustomDropdown title="Nosotros" items={items[5].children} />
       </div>
 
       <div className="gpt3__navbar-sign">

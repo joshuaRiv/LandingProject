@@ -99,6 +99,16 @@
 .ant-menu{
   width: 80vw !important;
   margin: auto;
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+.ant-menu.ant-menu-sub.ant-menu-inline{
+  max-width: 100%;
+}
+
+li.ant-menu-submenu.ant-menu-submenu-inline{
+  padding: 0px;
 }
 
 .gpt3__navbar-menu_container p {

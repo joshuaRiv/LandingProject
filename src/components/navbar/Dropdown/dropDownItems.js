@@ -447,6 +447,30 @@ const items = [
       },
     ],
   },
+  {
+    key: '7',
+    label: (
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.antgroup.com"
+      >
+        Contacto
+      </a>
+    ),
+  },
+  {
+    key: '8',
+    label: (
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.antgroup.com"
+      >
+        Inicia Sesión
+      </a>
+    ),
+  },
 ];
 
 export default items;
