@@ -13,7 +13,7 @@ const Possibility = () => (
       <div className="gpt3__possibility-content">
         <h3 className="miniTitle">RENDIMIENTO</h3>
         <div>
-          <h2 className="title">Aicraft Supera a la Competencia</h2>
+          <h2 className="title">Aicraft supera a la competencia</h2>
         </div>
         <div className="performanceCardWrapper">
           {performanceCardData.map((item, key) => (

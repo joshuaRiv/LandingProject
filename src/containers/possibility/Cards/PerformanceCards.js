@@ -1,7 +1,7 @@
 const performanceCardData = [
   {
     mini: 'EXPERTOS EN IA Y ANALÍTICA',
-    title: 'Dominamos el cnocimiento y transformamos datos en resultados.',
+    title: 'Dominamos el conocimiento y transformamos datos en resultados.',
     image: 'https://fastly.picsum.photos/id/123/4928/3264.jpg?hmac=Aq7Fp6OSHX5dfjSi9CiQUyK_wwjR7qskMJR1DHhoNuo',
   },
   {

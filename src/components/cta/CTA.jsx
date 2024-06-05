@@ -10,7 +10,7 @@ const CTA = () => (
       <h3 className="miniTitle">HABLEMOS</h3>
 
       <div>
-        <h2 className="title">Convierte Tus Datos Inmanejables En Avances</h2>
+        <h2 className="title">Convierte Tus Datos En Avances</h2>
         <p className="ctadescription">
           Descubre cómo Aicraft puede proveerte las bases para tu futuro de innovación basada en datos.
         </p>
