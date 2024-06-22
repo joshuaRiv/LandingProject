@@ -11,7 +11,7 @@ const carouselItems = [
   },
   {
     key: 3,
-    title: 'IA para México y Latinoamerica:',
+    title: 'IA para México y Latinoamerica',
     description: 'En Aicraft estamos comprometidos a impulsar el desarrollo e inovación de inteligencia artificial en nuestra región. Desde realizar proyectos y modelos especializados en nuestra cultura, gente, y necesidades, hasta buscar el progreso cientifico y tecnologico de nuestra región. Unete y descubre nuestra visión y objetivos.',
   },
   {

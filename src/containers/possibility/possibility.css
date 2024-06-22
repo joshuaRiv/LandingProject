@@ -5,7 +5,7 @@
 }
 
 .inverseTriangle {
-    clip-path: polygon(0% 0%, 100% 0%, 0% 30%);
+  clip-path: polygon(0% 0%, 100% 0%, 0% 30%);
   width: 100%;
   aspect-ratio: 1;
   background: linear-gradient(120deg, var(--purple), var(--pinkEnd));
@@ -27,9 +27,9 @@
 }
 
 .performanceCardWrapper {
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-  display: grid;
   margin-top: 2rem;
 }
 

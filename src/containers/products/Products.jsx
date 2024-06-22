@@ -1,8 +1,9 @@
 import React from 'react';
 import './products.css';
+import '../possibility/possibility.css';
 import dividerImg from '../../assets/Divider.svg';
-// import PerformanceCards from './Cards/PerformanceCards.jsx';
-// import performanceCardData from './Cards/PerformanceCards.js';
+import ProductsCards from './cards/ProductsCards.jsx';
+import ProductsCardData from './ProductsCards.js';
 
 const Products = () => (
   <div>
@@ -16,15 +17,15 @@ const Products = () => (
         <div>
           <h2 className="title">Estamos abriendo terreno para la IA</h2>
         </div>
-        <div className="performanceCardWrapper">
-          {/* {performanceCardData.map((item, key) => (
-            <PerformanceCards
+        <div className="productCardsWrapper">
+          {ProductsCardData.map((item, key) => (
+            <ProductsCards
               key={key}
               mini={item.mini}
               title={item.title}
               propImg={item.image}
             />
-          ))} */}
+          ))}
         </div>
       </div>
     </div>

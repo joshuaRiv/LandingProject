@@ -1,7 +1,7 @@
 import React from 'react';
-import './pfgu.css'
+import '../../possibility/Cards/PerformanceCards.css';
 
-function ProductCard({ mini, title, propImg }) {
+function PerformanceCards({ mini, title, propImg }) {
   return (
     <div className="cardPerformance">
       <h3 className="miniTitlePerformance">{mini}</h3>
@@ -10,3 +10,5 @@ function ProductCard({ mini, title, propImg }) {
     </div>
   );
 }
+
+export default PerformanceCards;
