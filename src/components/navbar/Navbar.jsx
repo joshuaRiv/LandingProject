@@ -54,7 +54,6 @@ const Navbar = () => {
         <img src={logo} />
       </div>
       {/* </div> */}
-      {console.log(items[0].children)}
       <div className="gpt3__navbar-links_container">
         <CustomDropdown title="Servicios" items={items[0].children} />
         <CustomDropdown title="Productos" items={items[1].children} />
