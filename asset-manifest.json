@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aicraftProject/static/css/main.ff8efcf3.css",
-    "main.js": "/aicraftProject/static/js/main.a7b50a6c.js",
+    "main.css": "/aicraftProject/static/css/main.10f01578.css",
+    "main.js": "/aicraftProject/static/js/main.ad630d0b.js",
     "static/media/ai.png": "/aicraftProject/static/media/ai.aa60586ba1ba53762d94.png",
     "static/media/blog01.png": "/aicraftProject/static/media/blog01.cefc0932eae0d33a0342.png",
     "static/media/blog03.png": "/aicraftProject/static/media/blog03.d922323861096f25274f.png",
@@ -9,16 +9,20 @@
     "static/media/blog05.png": "/aicraftProject/static/media/blog05.bfaa1c1e3851158e0e1f.png",
     "static/media/blog02.png": "/aicraftProject/static/media/blog02.ab0eb367561796e91532.png",
     "static/media/aicraftLogo.png": "/aicraftProject/static/media/aicraftLogo.8a06b65f30d89f73c2af.png",
+    "static/media/analytics.jpg": "/aicraftProject/static/media/analytics.4022f1d4f5a2bcacbf90.jpg",
+    "static/media/experience.jpg": "/aicraftProject/static/media/experience.5a5695f47f0c84efef8a.jpg",
+    "static/media/rules.jpg": "/aicraftProject/static/media/rules.6875a6eb922b0ed4e5b5.jpg",
+    "static/media/Divider.svg": "/aicraftProject/static/media/Divider.f3657ef244b4124aeb378489ad1b91f2.svg",
     "static/media/instagram.svg": "/aicraftProject/static/media/instagram.11b004814db4a4900dc05c2756a8c80c.svg",
     "index.html": "/aicraftProject/index.html",
     "static/media/linkedin.svg": "/aicraftProject/static/media/linkedin.0f75b0ce4198284bd2c8750807543221.svg",
     "static/media/youtube.svg": "/aicraftProject/static/media/youtube.3caf6cdbf2603fc9145be6d6daa38318.svg",
     "static/media/x.svg": "/aicraftProject/static/media/x.90266624b0ade0ac6ffe2d0819fe0b6e.svg",
-    "main.ff8efcf3.css.map": "/aicraftProject/static/css/main.ff8efcf3.css.map",
-    "main.a7b50a6c.js.map": "/aicraftProject/static/js/main.a7b50a6c.js.map"
+    "main.10f01578.css.map": "/aicraftProject/static/css/main.10f01578.css.map",
+    "main.ad630d0b.js.map": "/aicraftProject/static/js/main.ad630d0b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff8efcf3.css",
-    "static/js/main.a7b50a6c.js"
+    "static/css/main.10f01578.css",
+    "static/js/main.ad630d0b.js"
   ]
 }
