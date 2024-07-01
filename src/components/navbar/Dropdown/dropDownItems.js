@@ -8,6 +8,7 @@ const items = [
       {
         key: '11',
         label: 'Consultoría',
+        route: '/consulting',
         children: [
           {
             key: '111',
@@ -53,15 +54,8 @@ const items = [
       },
       {
         key: '12',
-        label: (
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.aliyun.com"
-          >
-            Auditoría y Peritaje
-          </a>
-        ),
+        label: 'Auditoría y Peritaje',
+        route: '/auditing',
         children: [
           {
             key: '121',
@@ -95,15 +89,8 @@ const items = [
       },
       {
         key: '13',
-        label: (
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.aliyun.com"
-          >
-            Política y Normativa
-          </a>
-        ),
+        label: 'Política y Normativa',
+        route: '/politics',
         children: [
           {
             key: '131',
@@ -141,15 +128,8 @@ const items = [
       },
       {
         key: '14',
-        label: (
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.aliyun.com"
-          >
-            Más
-          </a>
-        ),
+        label: 'Más',
+        route: '/svcsmore',
       },
     ],
   },

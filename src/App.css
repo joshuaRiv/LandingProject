@@ -15,6 +15,10 @@ a {
   text-decoration: none;
 }
 
+.generalTopMargin{
+  padding-top: 12rem;
+}
+
 .center{
   text-align: center;
   margin: auto;

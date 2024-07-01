@@ -47,6 +47,8 @@ const Navbar = () => {
     }
   };
 
+  // console.log({ items });
+
   return (
     <div className="gpt3__navbar">
       {/* <div className="gpt3__navbar-links"> */}
@@ -55,11 +57,11 @@ const Navbar = () => {
       </div>
       {/* </div> */}
       <div className="gpt3__navbar-links_container">
-        <CustomDropdown title="Servicios" items={items[0].children} />
-        <CustomDropdown title="Productos" items={items[1].children} />
-        <CustomDropdown title="Entrenamiento" items={items[2].children} />
-        <CustomDropdown title="Industrias" items={items[3].children} />
-        <CustomDropdown title="Recursos" items={items[4].children} />
+        <CustomDropdown title="Servicios" route={items[0].children[0].route} items={items[0].children} />
+        <CustomDropdown title="Productos" route={items[0].children[0].route} items={items[1].children} />
+        <CustomDropdown title="Entrenamiento" route={items[0].children[0].route} items={items[2].children} />
+        <CustomDropdown title="Industrias" route={items[0].children[0].route} items={items[3].children} />
+        <CustomDropdown title="Recursos" route={items[0].children[0].route} items={items[4].children} />
         <p>
           <a href="#blog" className="dropdownButtonTitle">
             Contacto
