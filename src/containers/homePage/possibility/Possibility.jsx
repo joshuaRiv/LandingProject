@@ -9,7 +9,7 @@ const Possibility = () => (
       <div className="inverseTriangle" />
     </div>
 
-    <div className="gpt3__possibility section__padding" id="possibility">
+    <div className="gpt3__possibility" id="possibility">
       <div className="gpt3__possibility-content">
         <h3 className="miniTitle">RENDIMIENTO</h3>
         <div>

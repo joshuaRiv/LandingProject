@@ -1,0 +1,82 @@
+.cardIndustries {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: var(--color-blog);
+  min-height: 100%;
+  text-align: left;
+  border-radius: 13px;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+}
+
+.gradientBackground{
+  background: linear-gradient(145deg, #16b4f2 -23.86%,#b525e6 102.67%);
+}
+
+.cardIndustries img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-top-left-radius: 13px ;
+  border-top-right-radius: 13px ;
+}
+
+.industriesCardContent{
+  padding: 20px 30px 40px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.cardCallToAction{
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: white;
+  padding-bottom: 5px;
+  border-bottom: 2px solid white;
+  transition: all 0.2s ease;
+}
+
+.cardCallToAction:hover{
+  transition: all 0.2s ease;
+  transform: translateY(-4px);
+}
+
+.industriesCardTitle {
+  font-size: 1.8rem;
+  line-height: 1.15;
+  padding-bottom: 10px;
+  letter-spacing: 0.02rem;
+  margin-bottom: 1rem;
+  position: relative;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.industriesCardminiTitle {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.6rem;
+  color: white;
+  flex: 1;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .cardIndustries {
+    width: 100%;
+  } 
+
+  .cardIndustries img {
+    margin: auto;
+  }
+}

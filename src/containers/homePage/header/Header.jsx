@@ -1,7 +1,7 @@
 import React from 'react';
-import ai from '../../assets/ai.png';
+import ai from '../../../assets/ai.png';
 import './header.css';
-import CarouselComponent from '../../components/Carousel/Carousel.jsx';
+import CarouselComponent from '../../../components/Carousel/Carousel.jsx';
 
 const Header = () => (
   <>

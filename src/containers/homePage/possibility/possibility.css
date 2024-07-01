@@ -15,6 +15,7 @@
 .gpt3__possibility {
   display: flex;
   flex-direction: row;
+  padding: 4rem 16rem;
 }
 
 .gpt3__possibility-content {
@@ -29,7 +30,7 @@
 .performanceCardWrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 40px;
   margin-top: 2rem;
 }
 
@@ -63,6 +64,11 @@
   margin-bottom: 2rem;
 }
 
+@media screen and (max-width: 1430px) {
+  .gpt3__possibility {
+    padding: 4rem 8rem;
+  }
+}
 @media screen and (max-width: 950px) {
   .gpt3__possibility {
     flex-direction: column;
@@ -82,6 +88,11 @@
   }
 }
 
+@media screen and (max-width: 992px) {
+  .gpt3__possibility {
+    padding: 4rem;
+  }
+}
 @media screen and (max-width: 700px) {
   .gpt3__possibility-image img {
     width: 100%;
@@ -90,5 +101,11 @@
 
   .performanceCardWrapper {
     grid-template-columns: 1fr;
+  }  
+}
+
+@media screen and (max-width: 550px) {
+  .gpt3__possibility {
+    padding: 4rem 2rem;
   }
 }

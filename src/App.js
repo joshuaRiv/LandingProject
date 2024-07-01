@@ -1,22 +1,23 @@
 import React from 'react';
-
-import { Footer, Blog, Possibility, Features, WhatGPT3, Header, Products } from './containers';
-import { CTA, Navbar } from './components';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import ErrorPage from './containers/errorPage/error-page';
+import HomePage from './containers/homePage/HomePage';
+import { Navbar } from './components';
+import Footer from './components/footer/Footer';
 import './App.css';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <HomePage />,
+    errorElement: <ErrorPage />,
+  },
+]);
 
 const App = () => (
   <div className="App">
-    <div className="gradient__bg">
-      <Navbar />
-      <Header />
-    </div>
-    {/* <Brand /> */}
-    <WhatGPT3 />
-    <Features />
-    <Possibility />
-    <Products />
-    <Blog />
-    <CTA />
+    <Navbar />
+    <RouterProvider router={router} />
     <Footer />
   </div>
 );

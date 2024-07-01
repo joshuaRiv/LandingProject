@@ -1,12 +1,26 @@
 .productCardsWrapper {
   grid-template-columns: repeat(4, 1fr);
-  padding-bottom: 140px;
+  padding-bottom: 4rem;
   display: grid;
   gap: 30px;
   padding-top: 2rem;
 }
 
-@media screen and (max-width: 992px) {
+.description {
+  font-size: 0.975rem;
+  line-height: 1.5;
+  margin: auto;
+  max-width: 90%;
+  color: white !important;
+}
+
+.ctaButtonBg{
+  padding: 5px;
+  border-radius: 13px;
+  background: linear-gradient(to right, var(--pinkEnd),  var(--darkBlue));
+}
+
+@media screen and (max-width: 1171px) {
   .productCardsWrapper {
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 80px;
