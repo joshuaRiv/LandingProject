@@ -1,6 +1,6 @@
 {
-  "homepage": "http://joshuaRiv.github.io/",
-  "name": "gpt3",
+  "homepage": "http://joshuaRiv.github.io/aicraftProject",
+  "name": "aicraft",
   "version": "0.2.0",
   "private": true,
   "dependencies": {
