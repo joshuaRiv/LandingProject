@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/aicraftProject/static/css/main.3c87949b.css",
+    "main.css": "/aicraftProject/static/css/main.5cf61ca0.css",
     "main.js": "/aicraftProject/static/js/main.38efa58c.js",
     "static/media/ai.png": "/aicraftProject/static/media/ai.aa60586ba1ba53762d94.png",
     "static/media/blog01.png": "/aicraftProject/static/media/blog01.cefc0932eae0d33a0342.png",
@@ -21,11 +21,11 @@
     "static/media/linkedin.svg": "/aicraftProject/static/media/linkedin.0f75b0ce4198284bd2c8750807543221.svg",
     "static/media/youtube.svg": "/aicraftProject/static/media/youtube.3caf6cdbf2603fc9145be6d6daa38318.svg",
     "static/media/x.svg": "/aicraftProject/static/media/x.90266624b0ade0ac6ffe2d0819fe0b6e.svg",
-    "main.3c87949b.css.map": "/aicraftProject/static/css/main.3c87949b.css.map",
+    "main.5cf61ca0.css.map": "/aicraftProject/static/css/main.5cf61ca0.css.map",
     "main.38efa58c.js.map": "/aicraftProject/static/js/main.38efa58c.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c87949b.css",
+    "static/css/main.5cf61ca0.css",
     "static/js/main.38efa58c.js"
   ]
 }
