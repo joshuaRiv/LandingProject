@@ -1,6 +1,6 @@
 ul.slick-dots.slick-dots-top{
-  margin-bottom: 1rem !important;
-  z-index: 0 !important;
+  margin-bottom: 1rem;
+  z-index: 0;
 }
 
 .ant-carousel.slick-slider.slick-initialized>.slick-dots>li {
@@ -8,28 +8,28 @@ ul.slick-dots.slick-dots-top{
 }
 
 .ant-carousel .slick-dots li{
-  background: transparent !important;
+  background: transparent;
 }
 
 .ant-carousel>.slick-slider.slick-initialized>.slick-dots {
-  justify-content: center !important;
-  z-index: 1 !important;
+  justify-content: center;
+  z-index: 1;
 }
 .ant-carousel>.slick-slider.slick-initialized>.slick-list>.slick-track > * {
   z-index: 1 !important;
-  width: 90% !important;
+  width: 90%;
 }
 .ant-carousel .slick-list{
-  max-width: 90% !important;
+  max-width: 90%;
 }
 
 .ant-carousel .slick-slider{
-  display: flex !important;
-  justify-content: space-around !important;
+  display: flex;
+  justify-content: space-around;
 }
 
 @media screen and (max-width: 700px) {
   .ant-carousel .slick-list{
-    max-width: 80% !important;
+    max-width: 80%;
   }
 }
