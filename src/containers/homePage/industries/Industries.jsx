@@ -30,7 +30,7 @@ const Industries = () => (
             />
           ))}
         </div>
-        <div className="featuresButtonContainerPr">
+        <div className="ctaButtonBg">
           <button type="button" className="featureBtns">Ver Soluciones</button>
         </div>
       </div>
